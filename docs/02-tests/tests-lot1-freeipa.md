@@ -1,4 +1,4 @@
-# Tests - Lot 1 : FreeIPA
+# Tests - Lot 1 : FreeIPA-Machine B
 ## Tests préparatoires réalisés le 27/02/2026
 
 
@@ -56,6 +56,7 @@ srv-web	       192.168.10.40	   ✅	         ✅      	✅
 srv-mail	     192.168.10.50	   ✅	         ✅       	✅	
 srv-infra	     192.168.10.10	   ✅          	 ✅      	✅	
 Tous les prérequis sont validés. En attente du serveur FreeIPA (binôme A) pour procéder à la jonction au domaine.
+
 
 
 
