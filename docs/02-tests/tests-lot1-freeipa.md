@@ -10,6 +10,7 @@ $ ip a | grep inet
     inet 127.0.0.1/8 scope host lo
     inet 192.168.10.40/24 brd 192.168.10.255 scope global enp0s3
 
+
 **Sur srv-mail (192.168.10.50)** :
 $ ip a | grep inet
     inet 127.0.0.1/8 scope host lo
@@ -56,6 +57,7 @@ srv-web	       192.168.10.40	   ✅	         ✅      	✅
 srv-mail	     192.168.10.50	   ✅	         ✅       	✅	
 srv-infra	     192.168.10.10	   ✅          	 ✅      	✅	
 Tous les prérequis sont validés. En attente du serveur FreeIPA (binôme A) pour procéder à la jonction au domaine.
+
 
 
 
