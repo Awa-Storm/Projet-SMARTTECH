@@ -39,13 +39,12 @@ Preuve : screenshots/lot1-freeipa/incident001-sudo-fixed.png
 
 
 
-### Incident 2 - Problème de droits sudo sur Debian (srv-infra)
+### Incident 2 - Impossible d'éditer /etc/hosts sans sudo (srv-web)
 **Date** : 26/02/2026  
 **Responsable** : Binôme B  
-**Lot concerné** : Lot 1 - Permission sudo 
+**Lot concerné** : Lot 1 - Configuration réseau
 
 **Description** :
-Après l'installation de Debian 12 sur srv-infra, l'utilisateur créé n'a pas les droits sudo. Les commandes `sudo` échouent avec le message "n'est pas dans le fichier sudoers".
 
 En essayant de modifier le fichier /etc/hosts avec nano, l'erreur "Permission denied" s'est affichée. Impossible de sauvegarder les modifications apportées au fichier.
 
